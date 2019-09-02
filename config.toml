@@ -1,79 +1,64 @@
-baseURL = "https://megapiksel.id/"
-languageCode = "en"
 DefaultContentLanguage = "en"
-theme = "less"
-#googleAnalytics = "UA-61295963-3"
 RemovePathAccents = true
-timeout = 200000
-enableRobotsTXT = true
+baseURL = "https://megapiksel.id/"
 canonifyURLs = true
+enableRobotsTXT = true
+languageCode = "en"
 paginate = 9
-
-
+theme = "less"
+timeout = 200000
 [author]
-  name = "Jaka"
-
-[permalinks]
-  posts = "/:slug"
-  categories = "/:slug"
-
+name = "Jaka"
 [imaging]
-  resampleFilter = "lanczos"
-
+resampleFilter = "lanczos"
+[[menu.main]]
+identifier = "infos"
+name = "About"
+title = "Infos & Contact"
+url = "/infos"
+weight = 4
+[[menu.main]]
+identifier = "guides"
+name = "Tips & Gear"
+title = "Tips & Gear"
+url = "/guides/"
+weight = 3
+[[menu.main]]
+identifier = "aventures"
+name = "Aventures"
+title = "Aventures"
+url = "/aventures/"
+weight = 2
+[[menu.main]]
+identifier = "journal"
+name = "Journal"
+title = "Journal"
+url = "/journal/"
+weight = 1
 [params]
-  sizes = [ "2048" , "1024" , "512" ]
-  tags = []
-
-  sansSerifFont = "Josefin Sans"
-  titleFont = "Josefin Sans"
-  bodyFont = "Lato"
-
-  hasLogo = true
-  accentColor = "#019CB5"
-
-#heroHeader = true
-
-[taxonomies]
-  category = "categories"
-
-[params.titles]
-  posts = "Journal"
-  categories = "Catégories"
-
+accentColor = "#019CB5"
+bodyFont = "Lato"
+hasLogo = true
+sansSerifFont = "Josefin Sans"
+sizes = ["2048", "1024", "512"]
+tags = []
+titleFont = "Josefin Sans"
 [params.social]
-  email = "jaka@megapiksel.com"
-  domain = "megapiksel.id"
-  instagram = "megapiksel.id"
-  twitter = "megapiksel_id"
-  youtube = "UC6z4Yl7eHnpq70sytIR1ljg"
-  anchor = "megapiksel"
-
-[[menu.main]]
-  name = "Journal"
-  title = "Journal"
-  weight = 1
-  identifier = "journal"
-  url = "/journal/"
-[[menu.main]]
-  name = "Aventures"
-  title = "Aventures"
-  weight = 2
-  identifier = "aventures"
-  url = "/aventures/"
-[[menu.main]]
-  name = "Tips & Gear"
-  title = "Tips & Gear"
-  weight = 3
-  identifier = "guides"
-  url = "/guides/"
-[[menu.main]]
-  name = "À propos"
-  title = "Infos & Contact"
-  weight = 4
-  identifier = "infos"
-  url = "/infos"
-
+anchor = "megapiksel"
+domain = "megapiksel.id"
+email = "jaka@megapiksel.com"
+instagram = "megapiksel.id"
+twitter = "megapiksel_id"
+youtube = "UC6z4Yl7eHnpq70sytIR1ljg"
+[params.titles]
+categories = "Catégories"
+posts = "Journal"
+[permalinks]
+categories = "/:slug"
+posts = "/:slug"
 [[related.indices]]
-  name = "categories"
-  weight =  1 # We don't really need this, but omitting it would disable the indice.
-  includeNewer = true
+includeNewer = true
+name = "categories"
+weight = 1
+[taxonomies]
+category = "categories"
