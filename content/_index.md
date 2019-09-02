@@ -1,10 +1,10 @@
 ---
-title: "Grégory Mignard"
-seotitle: "Grégory Mignard - Photographe & Blog Lifestyle"
-description: "Photographe, vidéaste et blogueur basé dans le Finistère, je documente sur ce blog mes tranches de vie et (micro)aventures."
+title: "Megapiksel"
+seotitle: "Megapiksel - Blog Fotografi dan Teknologi"
+description: "Blog ngomongin fotografi dan teknologi (internet, apps, windows, linux, smartphone), juga ngomongin gear, sosial, dan project. Tulisan bersifat opini."
 date: 2017-10-26T22:57:50+02:00
 draft: false
-tags: ["bretagne", "slow travel", "rural exodus", "voyage", "finistere", "monts d'Arree", "slow life", "neorural", "photographie"]
+tags: ["fotografi", "internet", "teknologi", "windows", "linux", "apps", "gear"]
 resources:
 - src: "*.jpg"
 ---
