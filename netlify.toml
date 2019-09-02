@@ -21,9 +21,3 @@
   for = "*.css" # css files too
   [headers.values]
     Cache-Control = "public, max-age=31536000"
-
-[[redirects]]
-  from = "http://hungry-heyrovsky-ec7af7.netlify.com/*"
-  to = "http://megapiksel.id/:splat"
-  status = 301
-  force = true #COMMENT: ensure that we always redirect
