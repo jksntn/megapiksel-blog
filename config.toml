@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://megapiksel.id/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 theme = "less"
