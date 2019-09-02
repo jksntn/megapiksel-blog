@@ -26,3 +26,4 @@
   from = "http://hungry-heyrovsky-ec7af7.netlify.com/*"
   to = "http://megapiksel.id/:splat"
   status = 301
+  force = true #COMMENT: ensure that we always redirect
